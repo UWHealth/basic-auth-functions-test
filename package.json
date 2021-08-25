@@ -34,14 +34,14 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
-    "jest": "^26.2.2",
-    "netlify-cli": "^2.59.0",
+    "jest": "^27.0.6",
+    "netlify-cli": "^6.7.5",
     "prettier": "^2.0.5"
   },
   "dependencies": {
-    "@uwhealth-public/netlify-plugin-jest": "^1.0.1",
+    "@uwhealth-public/netlify-plugin-jest": "^1.1.0",
     "lint-staged": "^10.2.11",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "husky": {
     "hooks": {
