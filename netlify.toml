@@ -21,4 +21,10 @@ package = "@uwhealth-public/netlify-plugin-jest"
 [[headers]]
   for = "/.netlify/functions/hello-world"
   [headers.values]
-  Basic-Auth = "foo:bar foo2:bar2" 
+  Basic-Auth = "foo:bar foo2:bar2"
+
+[[headers]]
+  for = "/hello-world"
+  [headers.values]
+  Basic-Auth = "foo:bar foo2:bar2"
+  
