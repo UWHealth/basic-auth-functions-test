@@ -26,21 +26,21 @@
   },
   "homepage": "https://github.com/UWHealth/netlify-functions-template#readme",
   "devDependencies": {
-    "@jest/globals": "^26.2.0",
-    "dot-prop": "^5.1.1",
-    "eslint": "^7.6.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
+    "@jest/globals": "^27.0.6",
+    "dot-prop": "^6.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "husky": "^7.0.2",
     "jest": "^27.0.6",
     "netlify-cli": "^6.7.5",
-    "prettier": "^2.0.5"
+    "prettier": "^2.3.2"
   },
   "dependencies": {
     "@uwhealth-public/netlify-plugin-jest": "^1.1.0",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "^11.1.2",
     "lodash": "^4.17.21"
   },
   "husky": {
