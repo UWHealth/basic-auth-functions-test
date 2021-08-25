@@ -9,6 +9,9 @@
 [[plugins]]
 package = "@uwhealth-public/netlify-plugin-jest"
 
+  [[plugins.inputs]]
+  skipTests = true
+
 ## Netlify offers the ability to configure the Redirects, Rewrites, Proxying and Headers directly in this *.toml configuration file. Please see the README for links to Netlify documentation.
 ## these are samples.
 
@@ -27,4 +30,3 @@ package = "@uwhealth-public/netlify-plugin-jest"
   for = "/hello-world"
   [headers.values]
   Basic-Auth = "foo:bar foo2:bar2"
-  
