@@ -30,3 +30,8 @@ package = "@uwhealth-public/netlify-plugin-jest"
   for = "/hello-world"
   [headers.values]
   Basic-Auth = "foo:bar foo2:bar2"
+
+  [[headers]]
+  for = "/secret.html"
+  [headers.values]
+  Basic-Auth = "foo:bar foo2:bar2"
