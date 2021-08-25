@@ -41,7 +41,7 @@
   "dependencies": {
     "@uwhealth-public/netlify-plugin-jest": "^1.0.1",
     "lint-staged": "^10.2.11",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "husky": {
     "hooks": {
