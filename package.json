@@ -27,7 +27,7 @@
   "homepage": "https://github.com/UWHealth/netlify-functions-template#readme",
   "devDependencies": {
     "@jest/globals": "^27.0.6",
-    "@uwhealth/netlify-plugin-jest": "^1.0.0",
+    "@uwhealth-public/netlify-plugin-jest": "^1.1.0",
     "dot-prop": "^6.0.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -40,7 +40,6 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
-    "@uwhealth-public/netlify-plugin-jest": "^1.1.0",
     "lint-staged": "^11.1.2",
     "lodash": "^4.17.21"
   },
