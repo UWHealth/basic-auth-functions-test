@@ -21,17 +21,17 @@ package = "@uwhealth-public/netlify-plugin-jest"
   status = 200
   force = true # COMMENT: ensure that we always redirect even if file present
 
-# [[headers]]
-#   for = "/.netlify/functions/hello-world"
-#   [headers.values]
-#   Basic-Auth = "foo:bar foo2:bar2"
+[[headers]]
+  for = "/.netlify/functions/hello-world"
+  [headers.values]
+  Basic-Auth = "foo:bar foo2:bar2"
 
-# [[headers]]
-#   for = "/hello-world/*"
-#   [headers.values]
-#   Basic-Auth = "foo:bar foo2:bar2"
+[[headers]]
+  for = "/hello-world/*"
+  [headers.values]
+  Basic-Auth = "foo:bar foo2:bar2"
 
-#   [[headers]]
-#   for = "/secret.html"
-#   [headers.values]
-#   Basic-Auth = "otherfoo:otherbar"
+  [[headers]]
+  for = "/secret.html"
+  [headers.values]
+  Basic-Auth = "otherfoo:otherbar"
