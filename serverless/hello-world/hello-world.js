@@ -5,6 +5,7 @@ exports.handler = async (event) => {
   try {
     const subject = event.queryStringParameters.person || 'World';
     if (subject === 'failure') throw new Error('Failure!');
+    console.log(event);
     return {
       statusCode: 200,
       body: JSON.stringify({
