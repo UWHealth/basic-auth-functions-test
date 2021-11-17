@@ -16,8 +16,8 @@ package = "@uwhealth-public/netlify-plugin-jest"
 ## these are samples.
 
 [[redirects]]
-  from = "/hello-world/*"
-  to = "/.netlify/functions/hello-world"
+  from = "/hello-world/:oneparameteronly"
+  to = "/.netlify/functions/hello-world/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect even if file present
 
