@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 exports.handler = async (event) => {
   try {
-    const subject = event.queryStringParameters.name || 'World';
+    const subject = event.queryStringParameters.person || 'World';
     if (subject === 'failure') throw new Error('Failure!');
     return {
       statusCode: 200,

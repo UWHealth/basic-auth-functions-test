@@ -17,7 +17,7 @@ package = "@uwhealth-public/netlify-plugin-jest"
 
 [[redirects]]
   from = "/hello-world/*"
-  to = "/.netlify/functions/hello-world?name=:splat"
+  to = "/.netlify/functions/hello-world?person=:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect even if file present
 
