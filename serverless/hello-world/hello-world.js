@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 exports.handler = async (event) => {
   try {
-    const subject = event.queryStringParameters.person || 'World';
+    const subject = (event.path || 'World' ).replace("/hello-world/","");
     if (subject === 'failure') throw new Error('Failure!');
     console.log(event);
     return {
