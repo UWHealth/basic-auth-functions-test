@@ -40,7 +40,7 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^13.2.1",
     "lodash": "^4.17.21"
   },
   "husky": {
